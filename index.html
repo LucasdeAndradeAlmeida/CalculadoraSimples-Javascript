@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <form name="calc" class="calculadora">
+            <input type="text" readonly name="txt" class="valor">
+            <span class="num clear" onclick="clearInput()"><i>C</i></span>
+            <span class="num" onclick="appendValue('/')"><i>/</i></span>
+            <span class="num" onclick="appendValue('*')"><i>*</i></span>
+            <span class="num" onclick="appendValue('7')"><i>7</i></span>
+            <span class="num" onclick="appendValue('8')"><i>8</i></span>
+            <span class="num" onclick="appendValue('9')"><i>9</i></span>
+            <span class="num" onclick="appendValue('-')"><i>-</i></span>
+            <span class="num" onclick="appendValue('4')"><i>4</i></span>
+            <span class="num" onclick="appendValue('5')"><i>5</i></span>
+            <span class="num" onclick="appendValue('6')"><i>6</i></span>
+            <span class="num plus" onclick="appendValue('+')"><i>+</i></span>
+            <span class="num" onclick="appendValue('1')"><i>1</i></span>
+            <span class="num" onclick="appendValue('2')"><i>2</i></span>
+            <span class="num" onclick="appendValue('3')"><i>3</i></span>
+            <span class="num" onclick="appendValue('0')"><i>0</i></span>
+            <span class="num" onclick="appendValue('00')"><i>00</i></span>
+            <span class="num" onclick="appendValue('.')"><i>.</i></span>
+            <span class="num equal" onclick="calculate()"><i>=</i></span>
+        </form>
+    </main>
+    
+</body>
+</html>
