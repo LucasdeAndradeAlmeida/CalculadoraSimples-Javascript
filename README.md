@@ -1,6 +1,6 @@
 # Calculadora con JavaScript
 
-Programa web que emula una calculadora conm suas funcionabilidades básicas. 
+Programa web que emula uma calculadora com suas funcionabilidades básicas. 
 
 ## Construido com 🛠️
 
