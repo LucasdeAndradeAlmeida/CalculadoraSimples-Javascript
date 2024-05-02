@@ -11,4 +11,4 @@ Programa web que emula una calculadora conm suas funcionabilidades básicas.
 ## Projeto totalmente responsivo
 <img src="img/responsive.png" alt="dispositivos compativeis" align="center" style="width:300px; heigth: 300px;">
 <br>
-<a https://calculadora-simples-javascript.vercel.app/">Para acessar o projeto </a>
+<a href="https://calculadora-simples-javascript.vercel.app/">Para acessar o projeto </a>
