@@ -1,4 +1,4 @@
-# Calculadora con JavaScript
+# Calculadora com JavaScript
 
 Programa web que emula uma calculadora com suas funcionabilidades básicas. 
 
