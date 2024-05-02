@@ -124,3 +124,30 @@ body {
     border-bottom: 1px solid #fff4;
     border-top: 1px solid #fff4;
 }
+
+
+@media screen and (max-width: 500px) {
+    .calculadora span{
+        width: 60px;
+        height: 60px;
+    }
+
+    .calculadora .valor{
+        width: calc(100% - 40px);
+        left: 20px;
+    }
+
+    .calculadora .clear{
+        width: 160px;
+    }
+
+    .calculadora .plus{
+        height: 160px;
+    }
+
+    .calculadora .equal{
+        height: 60px;
+    }
+
+ 
+}
